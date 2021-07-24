@@ -13,7 +13,7 @@
 ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9094 --topic demo-topic --from-beginning --consumer.config config/ssl-consumer.properties
 
 # Note
-client credentials:\
+credentials:\
 CA private key: config/truststore/ca-key\
 truststore with cert: config/truststore/kafka.truststore.jks
 
