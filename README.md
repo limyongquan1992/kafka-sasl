@@ -15,7 +15,7 @@
 # Note
 client credentials:\
 cacert: config/truststore/ca-key\
-truststore.jks: config/truststore/kafka.truststore.jks\
+truststore.jks: config/truststore/kafka.truststore.jks
 
 # More info
 https://medium.com/egen/securing-kafka-cluster-using-sasl-acl-and-ssl-dec15b439f9d
