@@ -1,1 +1,0 @@
-[2021-07-24 17:21:09,500] INFO Principal = User:demo-user is Denied Operation = ClusterAction from host = 127.0.0.1 on resource = Cluster:LITERAL:kafka-cluster (kafka.authorizer.logger)
