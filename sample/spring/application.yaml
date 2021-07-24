@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9094
+    consumer:
+      group-id: demo-consumer-group
+    properties:
+      security.protocol: SASL_SSL
+      sasl.mechanism: SCRAM-SHA-512
+      sasl.jaas.config: org.apache.kafka.common.security.scram.ScramLoginModule required username="demo-user" password="secret";
+      ssl.truststore.location: /Users/yongquanlim/Dev/kafka_2.13-2.8.0/config/truststore/kafka.truststore.jks
+      ssl.truststore.password: 123456abc
